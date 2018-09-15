@@ -1,0 +1,16 @@
+>>
+Script is used     : e3TemplateGenerator.bash
+Script Path        : /home/jhlee/ics_gitsrc/e3-tools/e3TemplateGenerator
+User               : jhlee
+Log Time           : 2018Sep15-1320-56CEST
+e3 repo Hash       : df3c071
+>> 
+EPICS_MODULE_NAME  :                                                         delaygen
+E3_MODULE_SRC_PATH :                                                         delaygen
+EPICS_MODULE_URL   :                                 https://github.com/epics-modules
+E3_TARGET_URL      :                                        https://github.com/icshwi
+>> 
+e3 module name     :                                                      e3-delaygen
+e3 module url full :                        https://github.com/epics-modules/delaygen
+e3 target url full :                            https://github.com/icshwi/e3-delaygen
+>> 

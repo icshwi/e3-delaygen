@@ -1,0 +1,4 @@
+[submodule "delaygen"]
+	path = delaygen
+	url = https://github.com/epics-modules/delaygen
+	ignore = all
