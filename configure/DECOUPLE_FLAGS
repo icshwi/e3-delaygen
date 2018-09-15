@@ -11,15 +11,17 @@ ipmiComm_VERSION=
 # Remove sequencer....due to "duplicated" VARIABLES
 #sequencer_VERSION=
 sscan_VERSION=
-MCoreUtils=
+
 
 std_VERSION=
 ip_VERSION=
 calc_VERSION=
+delaygen_VERSION=
 pcre_VERSION=
 stream_VERSION=
 s7plc_VERSION=
 recsync_VERSION=
+MCoreUtils_VERSION=
 
 devlib2_VERSION=
 mrfioc2_VERSION=
