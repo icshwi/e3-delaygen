@@ -23,7 +23,7 @@
 ## The following lines are mandatory, please don't change them.
 where_am_I := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 include $(E3_REQUIRE_TOOLS)/driver.makefile
-include $(where_am_I)/../configure/DECOUPLE_FLAGS
+include $(E3_REQUIRE_CONFIG)/DECOUPLE_FLAGS
 
 # If one would like to use the module dependency restrictly,
 # one should look at other modules makefile to add more
@@ -65,13 +65,8 @@ DBDS += $(APPSRC)/delaygenSupport.dbd
 
 
 TEMPLATES += $(wildcard $(APPDB)/*.db)
-# ip has *.proto and *.protocol files in $(APPDB)
 TEMPLATES += $(wildcard $(APPDB)/*.proto*)
 
-
-## This RULE should be used in case of inflating DB files 
-## db rule is the default in RULES_DB, so add the empty one
-## Please look at e3-mrfioc2 for example.
 
 db: 
 
