@@ -1,0 +1,10 @@
+digraph delaygen {
+node [shape=record];
+base [label="base 7.0.3"]
+require [label="require 3.1.1"]
+ASYN [label="ASYN 4.36.0"]
+CALC [label="CALC 3.7.3"]
+delaygen [label="delaygen 1.2.1"]
+base -> require -> { ASYN,CALC } ->  {  delaygen  } 
+} 
+
